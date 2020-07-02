@@ -1,0 +1,52 @@
+body,
+html {
+  height: 100%;
+  display: grid;
+  font-size: 24px;
+}
+
+.vscode-body {
+  font-family: MonoLisa, 'Operator Fira', Menlo, Monaco, 'Courier New';
+  box-sizing: border-box;
+  width: 980px;
+  height: 800px;
+  margin: auto;
+  padding: 40px;
+  border: 1px solid transparent;
+  animation: reveal 0.8s 1;
+}
+
+img {
+  max-width: none !important;
+  max-height: none !important;
+  margin-left: -15%;
+}
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  border: none;
+}
+h3 {
+  font-size: 32px;
+}
+
+@keyframes reveal {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+em {
+  opacity: 0.5;
+}
+details {
+  text-align: center;
+}
+summary {
+  font-size: 40px;
+  outline: none;
+}
